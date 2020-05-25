@@ -1,0 +1,8 @@
+IPC144 Assignment 2, Milestone 3 & 4 Reflection
+1)	Using the two functions findContactIndex and getTenDigitPhone, it benefited my source code in a few ways. For one, it’s easier to maintain because when I wanted to change the code, I only had to change the code in that specific function, rather than editing in multiples areas. Another benefit is that the overall source code was easier to read because the function has a meaningful name, allowing the code to be easily distinguished upon first glance. Without these two functions, the code would become complicated to read due to its repetitive structure. 
+
+2)	Yes, I would have liked this assignment to include the functionality to load/save the contact information from/to a text data file. Reason being is when the code is being run, there are many inputs that need to be entered. If an error would be to occur, the entire long process would have to restart from the beginning. With the load/save ability, it would allow the code to save the status of the input at a certain point and then user would merely need to just resume from that point to continue with running the rest of the test. 
+
+3)	In Milestone 3 and 4, I learned how to use a string library in my code. Using string functions such as “strlen”, “strcpy”, and “strcmp”, it allowed me to return a certain number of characters in my character string, copy the string into another string, and compare two strings with each other. 
+Additionally, I also learned how to use sorting algorithm at the end of my code. 
+

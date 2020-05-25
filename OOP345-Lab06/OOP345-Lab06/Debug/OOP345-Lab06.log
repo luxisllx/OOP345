@@ -1,0 +1,7 @@
+﻿  Autoshop.cpp
+  Car.cpp
+C:\Users\luxis\Desktop\OOP345-Lab06\Car.cpp(25,34): warning C4244:  'argument': conversion from 'std::streamsize' to 'const unsigned int', possible loss of data
+  w6_lab.cpp
+  Generating Code...
+C:\Users\luxis\Desktop\OOP345-Lab06\Car.cpp(102,26): warning C4101:  'ia': unreferenced local variable
+  OOP345-Lab06.vcxproj -> C:\Users\luxis\Desktop\OOP345-Lab06\Debug\OOP345-Lab06.exe

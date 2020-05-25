@@ -1,0 +1,5 @@
+﻿  Movie.cpp
+  w5_home.cpp
+C:\Users\luxis\Desktop\Lab05_Home\w5_home.cpp(182,8): error C2512:  'sdds::Movie': no appropriate default constructor available
+  Generating Code...
+C:\Users\luxis\Desktop\Lab05_Home\Movie.h(17,8): message :  see declaration of 'sdds::Movie'

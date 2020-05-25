@@ -1,0 +1,19 @@
+// Reflection Lab07
+// 03/15/2020
+// Luxi Liang 165936188
+// OOP345 NCC
+
+1. list all the STL functions that you have used in this workshop; explain your reasoning for choosing each one, and not another.
+A. STL functions I used were for_each() and sort(). It was necessary to use in the case of non manual loops. Using for_each allowed me to ierate through the vector & list.
+ Using sort() allows me to change the order into the list.
+
+2. present the advantages of using STL algorithms vs. implementing the functionality by yourself using loops.
+A. advantages of STL is that they say what they do, rather than how its implemented. Compared to for-loop they are also able to avoid more common mistakes such as 
+dealing with empty collections. For-loops need to make sure that it behaves correclty when theres no elements to iterate over.
+
+3. the function that sorts the collection of songs receives as a parameter the field name to use; this can create errors if the client specifies an invalid field (or misspells it). How would you redesign that function to prevent the client to specify an invalid string, allowing any error to be detected by the compiler?
+A. Allowing user input increases the risk of errors or invalid fields. Redesigning the function to prevent this case could be of one of two ways: 1) implement a function that
+validates user input (user input must match validation criteria). 2) giving user a drop down menu of options to choose rather than freestyle input.
+
+***Quiz 8 Reflection ***
+No errors

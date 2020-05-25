@@ -1,0 +1,24 @@
+// Name: Luxi Liang
+// Seneca Student ID: 165936188
+// Seneca email: lliang44@myseneca.ca
+// Date of completion: 03-25-2020
+//
+REFLECTION
+
+
+Q. the advantage that smart pointer syntax provides. Use example from your code to support your explanation.
+A. with a smart pointer, we don't need to delete the object. The advantage of that is it will manage the memory by itself.
+An example in my code was: std::shared_ptr<Product> tmp(new Product(desc[i].desc, price[j].price));
+This section of the code created a product object but didn't require deletion.
+
+Q. the difference between raw and smart pointer syntax in your solution.
+A. the difference for creating in my solution is as following:
+	raw: Product* tmp = new Product(desc[i].desc, price[j].price);
+   	smart: std::shared_ptr<Product> tmp(new Product(desc[i].desc, price[j].price));
+for deletion:
+	raw: delete tmp;
+	smart: does not require deletion 
+
+
+***Quiz Reflection***
+There was no quiz last week. 

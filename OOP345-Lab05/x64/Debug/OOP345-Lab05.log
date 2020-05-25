@@ -1,0 +1,10 @@
+﻿  Book.cpp
+C:\Users\luxis\Desktop\OOP345\OOP345-Lab05\Book.cpp(57,43): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\luxis\Desktop\OOP345\OOP345-Lab05\Book.cpp(69,43): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\luxis\Desktop\OOP345\OOP345-Lab05\Book.cpp(80,43): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\luxis\Desktop\OOP345\OOP345-Lab05\Book.cpp(90,45): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\luxis\Desktop\OOP345\OOP345-Lab05\Book.cpp(95,45): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+  w5_lab.cpp
+  Generating Code...
+C:\Users\luxis\Desktop\OOP345\OOP345-Lab05\Book.cpp(100,43): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+  OOP345-Lab05.vcxproj -> C:\Users\luxis\Desktop\OOP345\OOP345-Lab05\x64\Debug\OOP345-Lab05.exe

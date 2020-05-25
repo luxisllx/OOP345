@@ -1,0 +1,25 @@
+// Name: Luxi Liang
+// Seneca Student ID: 165936188
+// Seneca email: lliang44@myseneca.ca
+// Date of completion: January 19, 2020
+// OOP345 Lab01
+
+In OOP345 Lab01, I was able to review some basic concepts that I had previously in OOP244. Such concepts are default constructors, copy constructors, copy assignment, desconstructors, working with arrays and pointers, and Classes.
+Additionally, I was able to review how to dynamically allocate as well as deallocating to prevent memory leaks. 
+New information that I obtained through this lab was the use of "static" and "extern" keywords. Static is the keyword for Internal Linkage. This concept that indicates entity that is invisibile outside its translation unit but visible to other scopes within its unit. Since global variable has external linkage by default, we use "static" to restrict it to the file containing its declaration. (Example: static unsigned COUNTER = 0;) By assigning static to a variable, it allows the variable to be only valid within the assigned scope.
+On the other hand, the keyword "extern" refers to Externally linked identifiers that are shared between translation units. It took me a while to google what a translation unit was, but once I understood that, both external and internal linkage made sense to me (translation unit = file containing source code. ie. .cpp)
+
+When upgrading my Event class, I changed one of my members into a C style null terminated string of any length. Thus, I changed my member "value" into a char pointer. Since now it is a char pointer (aka also a string), it needs to be copied using strcpy. Hence I created two more prototypes: Copy Constructor and Copy Assignment. Additionally, since member "Value" needed to be dynamically allocated, it was crucial to add in a deconstructor at the end of the code to prevent memory leaks. 
+
+** QUIZ 2 REFLECTION ** 
+
+15) A generic pointer type is a pointer that is not associated with any particular type:
+Right Answer: YES
+My Answer: NO
+//This was a dumb mistake as I understand the concept and know that the answer is YES but perhaps in my haste I read it incorrectly.
+
+
+25) Code 10, line 5 will print:
+Right Answer: 11
+My Answer: 10
+// I had failed to see the "++" option, thus it should have been 10+1 = 11, not 10. 

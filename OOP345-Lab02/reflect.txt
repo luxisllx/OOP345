@@ -1,0 +1,22 @@
+// Name: Luxi Liang
+// Seneca Student ID: 165936188
+// Seneca email: lliang@myseneca.ca
+// Lab02
+
+In OOP345 Lab02, I learned the following: Move constructor and Move assignment operator
+In a move constructor, I learned that it takes resources from an expression with NO memory address(rvalue) and move it into an expression with memory address(lvalue) without creating its copy. By using a move constructor to move ownership rather than copying, it is both time efficient and less expensive. A move assignment operator is called when we transfer a temp object into an existing object. 
+
+Sometimes it is more pratical to use a move constructor than a copy constructor because of the speed. Move constructors will tend to be faster than copying because they are transfering an existing resource to a new destination. On the other hand, copy constructors will require the creation of a new resource from the beginning and it allocates memory. 
+
+The difficult part of the lab was the in-lab portion where we were required to use the given syntaxs: std::chrono::steady_clocks....etc.
+It was fairly confusing at first because it was something that I had never experienced before. After reading the given documentation and reading some sample codes online, I was able to write the functions. 
+
+** Quiz 3 Reflection **
+
+In this quiz I only had one question wrong:
+11) In code 2.0, Line 21 will print "Null pointer to fourth type-cast"
+A: NO
+My Answer: YES
+
+
+
